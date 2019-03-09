@@ -10,20 +10,33 @@ import Navigation from './components/Navigation'
 
 
 class App extends Component {
+
   render() {
+
     return(
-      <BrowserRouter basename="/app3" >
+
+      <BrowserRouter>
+      
         <div>
-          <Navigation />
-          <Switch>
+
+          
+
+            <Navigation />
+            <Switch>
             {/* create a path for whichever component | exact to only render Home once */}
             <Route path="/" component={Home} exact/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route component={Error}/>
+
           </Switch>
+
         </div> 
+
       </BrowserRouter>
+      
+
+      
     )
   }
 }
