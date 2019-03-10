@@ -1,0 +1,82 @@
+.about{
+    
+    &__description{
+        font-family: 'Century', cursive, Arial;
+      font-size: 18px;
+      font-weight: 100;
+      display: block;
+      line-height: 30px;
+      color: rgb(180, 180, 180);
+      display: inline;
+      &:hover{
+         background-color: rgb(255, 255, 158);
+         color: rgb(71, 71, 247);
+         text-decoration: none;
+   
+      }
+    }
+}
+
+ul > p{
+    display: inline;
+    font-family: 'Century', cursive, Arial;
+      font-size: 27px;
+      font-weight: 100;
+      display: inline;
+      line-height: 30px;
+      color: rgb(180, 180, 180);
+      &:hover{
+         background-color: rgb(255, 255, 158);
+         color: rgb(71, 71, 247);
+         text-decoration: none;
+   
+      }
+}
+
+h6{
+    display: inline-block;
+    font-family: 'Century', cursive, Arial;
+    font-size: 15px!important;
+    font-weight: 100;
+
+    line-height: 30px;
+    color: rgb(180, 180, 180);
+    &:hover{
+        background-color: rgb(255, 255, 158);
+        color: rgb(126, 131, 233);
+        text-decoration: none;
+
+    }
+}
+
+h5{
+    display: block;
+    font-family: 'Century', cursive, Arial;
+      font-size: 27px;
+      font-weight: 100;
+
+      line-height: 30px;
+      color: rgb(180, 180, 180);
+      &:hover{
+         background-color: rgb(255, 255, 158);
+         color: rgb(126, 131, 233);
+         text-decoration: none;
+   
+      }
+}
+
+ul > h4{
+    display: block;
+    font-family: 'Century', cursive, Arial;
+      font-size: 27px;
+      font-weight: 100;
+
+      line-height: 30px;
+      color: rgb(180, 180, 180);
+      &:hover{
+         background-color: rgb(255, 255, 158);
+         color: rgb(126, 131, 233);
+         text-decoration: none;
+   
+      }
+}

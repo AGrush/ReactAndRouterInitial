@@ -1,0 +1,16 @@
+.menulink{
+	font-family: 'Gruppo', cursive, Arial;
+	font-size: 19px;
+	padding: 15px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	
+	color: rgb(180, 180, 180);
+	&:hover{
+		background-color: rgb(255, 255, 158);
+		color: rgb(71, 71, 247);
+		text-decoration: none;
+
+	}
+}

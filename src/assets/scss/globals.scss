@@ -1,0 +1,15 @@
+a.inline-link{
+    display: inline;
+    color:rgb(255, 143, 143);
+    font-family: 'Century', cursive, Arial;
+      font-size: 22px;
+      font-weight: 100;
+      display: inline;
+      line-height: 30px;
+      color: rgb(180, 180, 180);
+      
+    &:hover{
+        text-decoration: none;
+        background-color: rgb(255, 255, 158);
+    }
+}

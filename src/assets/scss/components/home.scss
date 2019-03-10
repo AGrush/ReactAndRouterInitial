@@ -1,0 +1,78 @@
+
+
+.content > ul{
+    padding-left:13px;
+    margin:0;
+}
+
+.content{
+   border-left: 1px rgba(112, 112, 112, 0.3) solid;
+}
+
+li.job {
+    list-style:none;
+    position: relative;
+
+    line-height: 2;
+    font-size:32px;
+  }
+
+li.job:before {
+    font-family:FontAwesome;
+    position: absolute;
+    margin-left: -60px;
+    width:50px;
+    padding-right:15px;
+    top:-22px;
+    color:#318ca0;
+    font-size:32px;
+    text-align: center;
+
+  }
+  
+  li.job.one:before {
+     content:"\f1e2"; 
+  }
+  li.job.two:before {
+     content:"\f004";
+  }
+  li.job.three:before {
+     content:"\f0e7";
+  }
+  li.job.four:before {
+     content:"\f004";
+  }
+  li.job.five:before {
+     content:"\f1e2";
+  }
+  li.job.six:before {
+     content:"\f0e7";
+  }
+  
+  li.job:hover:before {
+    color:rgb(255, 143, 143);
+  }
+
+.job{
+   padding-bottom:15px;
+   a{
+      font-family: 'Century', cursive, Arial;
+      font-size: 27px;
+      font-weight: 100;
+      display: block;
+      line-height: 30px;
+      color: rgb(180, 180, 180);
+      &:hover{
+         background-color: rgb(255, 255, 158);
+         color: rgb(71, 71, 247);
+         text-decoration: none;
+   
+      }
+   }
+   &__description{
+      font-family: 'Century', cursive, Arial;
+      font-size: 17px;
+      font-weight: 100;
+      color: rgb(180, 180, 180);
+   }
+}
